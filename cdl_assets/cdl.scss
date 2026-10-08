@@ -1,0 +1,121 @@
+/*-- scss:defaults --*/
+
+// $body-bg: #8cb9ff;
+$body-color: #9a1764; 
+
+.reveal .slide blockquote {
+  color: #9a1764;
+}
+
+
+/*-- fonts --*/
+@layer base {
+  /* inter-thin - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../../../../../cdl_assets/fonts/Inter-Thin.ttf') format('truetype');
+  }
+
+  /* inter-extralight - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;   
+    src: url('../../../../../cdl_assets/fonts/Inter-ExtraLight.ttf') format('truetype');
+  }
+
+  /* inter-light - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300; 
+    src: url('../../../../../cdl_assets/fonts/Inter-Light.ttf') format('truetype');
+  }
+
+  /* inter-regular - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400; 
+    src: url('../../../../../cdl_assets/fonts/Inter-Regular.ttf') format('truetype');
+  }
+
+  /* inter-medium - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500; 
+    src: url('../../../../../cdl_assets/fonts/Inter-Medium.ttf') format('truetype');
+  }
+
+  /* inter-semibold - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600; 
+    src: url('../../../../../cdl_assets/fonts/Inter-SemiBold.ttf') format('truetype');
+  }
+
+  /* inter-bold - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../../../cdl_assets/fonts/Inter-Bold.ttf') format('truetype');
+  }
+
+  /* inter-extrabold - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800; 
+    src: url('../../../../../cdl_assets/fonts/Inter-ExtraBold.ttf') format('truetype');
+  }
+
+  /* inter-black - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900; 
+    src: url('../../../../../cdl_assets/fonts/Inter-Black.ttf') format('truetype');
+  }
+}
+
+$font-family-sans-serif: "Inter";
+
+$presentation-h1-font-size: "2.2em";
+
+.reveal .slide-logo {
+  height: 75px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.reveal .footer > *{
+  color: #9a1764; // Footer text color
+}
+
+
+
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.caption {
+  font-size: 0.3em!important;
+  text-align: center;
+}
+
+#refs {
+  font-size: small; 
+  column-count: 2; 
+  column-gap: 20px; 
+  column-fill: auto;
+  height: 600px;
+}

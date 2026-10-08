@@ -1,0 +1,73 @@
+/*-- scss:rules --*/
+
+#title-slide {
+  text-align: left;
+
+  .title {
+    font-size: 2.6em;
+    line-height: 1.05;
+    margin-bottom: 0.2em;
+  }
+
+  .subtitle {
+    font-size: 1.3em;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-bottom: 1.6em;
+  }
+
+  .quarto-title-authors {
+    display: block;
+    width: fit-content;
+    border-top: 2px solid currentColor;
+    padding-top: 0.6em;
+  }
+
+  .quarto-title-author,
+  .quarto-title-author-name {
+    padding: 0;
+    margin: 0;
+  }
+
+  .quarto-title-author-name,
+  .date {
+    font-size: 0.75em;
+    margin: 0;
+  }
+}
+
+.reveal .slide .source {
+  display: block;
+  position: absolute;
+  bottom: 2.5em;
+  left: 0;
+  right: 12%;
+  font-size: 0.4em;
+  opacity: 0.8;
+}
+
+.reveal .coc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6em 1em;
+  margin-top: 0.4em;
+
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  img {
+    height: 190px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  figcaption {
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0.3em;
+  }
+}

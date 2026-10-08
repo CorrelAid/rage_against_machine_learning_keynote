@@ -299,7 +299,7 @@ csl: cdl_assets/apa.csl
 :::
 
 
-## KI: fabelhaft
+## KI: Fabel(haft)
 
 - CDL Projekte
   - AWO Demokratieförderquote: Klassifikation von Förderprogrammen mit Fokus auf Recall
@@ -316,17 +316,17 @@ csl: cdl_assets/apa.csl
 :::
 
 
-# How to Rage against the Machine Learning
+# How to: Rage against the Machine Learning
 
 - Im Kopf behalten, dass Big Tech aktiv eine fragwürdige politische Agenda verfolgt
 
-- Stolz Thiels „Antichrist“ sein: 
+- Thiels „Antichrist“ sein: 
   - Regulierung und demokratische Institutionen verteidigen statt „move fast and break things“
 
-- Nicht *„Wie können wir KI einsetzen?“*, sondern *„Welches Problem haben wir (wirklich) – und ist KI dafür die beste Lösung?“*
-- Immer mitdenken: *„Wozu – und zu welchem Preis?“*
+- Weniger *„Wie können wir KI einsetzen?“*, mehr *„Welches Problem haben wir (wirklich) und ist KI dafür die beste Lösung?“*
+- Mitdenken: *„Wozu – und zu welchem Preis?“*
 
-- Code of Conduct Demokratische KI - demokratische-ki.de
+- Mehr konkrete Handlungsempfehlungen für Zivilgesellschaft: Code of Conduct Demokratische KI (demokratische-ki.de)
 
 ::: notes
 - Wir sollten alle stolze Antichristen sein, nicht, dass wir Satanisten werden sollten, sondern ...
@@ -335,11 +335,11 @@ csl: cdl_assets/apa.csl
 - Unserer Meinung sollte das nicht dazu führen, KI prinzipiell abzulehnen (individuelle ethische Entscheidung): man kann sie für konkrete Probleme in Betracht ziehen
 
 - Weiterführend Coc demokratische KI: 
-  - Als CDL daran mitgearbeitet
   - konkrete Handlungsempfehlungen für gemeinwohlorientierte Organisationen
 
 :::
 
+# Zeit für Nachfragen und Gedanken
 
 ## Quellen {.scrollable}
 

@@ -4,17 +4,15 @@ subtitle: "KI zwischen Mythos und Fabel(haft)"
 format:
     revealjs:
         slide-number: true
-        mermaid:
-            theme: neutral
-smaller: true
-date: 10/09/2026
+        smaller: true
+date: 2026-10-09
 date-format: "D. MMMM YYYY"
 lang: de
 author: Jonas Stettner | CorrelAid @ CDL
 theme: [cdl_assets/cdl.scss, title-slide.scss]
 logo: cdl_assets/logo.png
 footer: "civic-data.de"
-self-contained: true
+embed-resources: true
 bibliography: references.bib
 csl: cdl_assets/apa.csl
 ---
@@ -23,7 +21,7 @@ csl: cdl_assets/apa.csl
 
 ## Social Responsibility: Wer sollte uns als Beispiel dienen?
 
-- Peter Thiel erhielt dieses Jahr Axel Springer Award: oft als Demokratiepreis bezeichnet 
+- Peter Thiel erhielt Axel Springer Award: oft als Demokratiepreis bezeichnet 
 - Geht an Persönlichkeiten, die „[...] **gesellschaftliche Verantwortung übernehmen**“
   - Andere Personen, die gesellschaftliche Verantwortung übernehmen: Jeff Bezos (2018) · Elon Musk (2020) · Sam Altman (2025)
 
@@ -38,11 +36,12 @@ csl: cdl_assets/apa.csl
 [@axelspringer_award; @boeselager2026; @firth2026]{.source}
 
 ::: notes
-- Diese Konferenz steht ja unter dem Motto Social Responsibility, deswegen dachte ich, man könnte sich mal nach guten Beispielen umschauen
-- Zum Glück gibt es einen Preis, der genau dies auszeichnet, nämlich den Axel Springer Award; Passt mit Hinsich auf zwei Aspekte: gesellschaftliche Verantwortung und Demokratie ...
-- Aufsichtsratsvorsitzender von Palantir: ist auf Analyse großer Datenmengen spezialisiert und hat als Kunde viele Militär- und Sicherheitsbehörden
-- Das Zitat fasst Big Tech bzw. Silicon Valley sehr gut zusammen; "move fast and break things"; Fokus auf "getting something done", aber es ist egal was und welche Konsequezen es hat 
-- Diese Einstellung teilen sich viele mit Big Tech verwobenen Ideologien
+- Konferenz steht unter dem Motto Social Responsibility: guten Beispiele
+- Preis, der genau dies auszeichnet, Axel Springer Award. 
+- Passt zu Konferenz und zum diesjährigen Theme: gesellschaftliche Verantwortung und "Demokratiepreis"
+- Dieses Jahr bekam ihn Thiel, der Aufsichtsratsvorsitzender von Palantir ist: auf Analyse großer Datenmengen spezialisiert; als Kunde viele Militär- und Sicherheitsbehörden; setzt viel KI ein
+- Bei der Konferenz sagte er:
+- Zitat fasst Big Tech gut zusammen; "move fast and break things" -> Fokus auf "getting something done", aber es ist egal was und welche Konsequenzen es hat 
 -> In Wahrheit **das Gegenteil von Verantwortung übernehmen**  
 :::
 
@@ -50,19 +49,17 @@ csl: cdl_assets/apa.csl
 
 - Wie können wir KI in der Zivilgesellschaft verantwortungsvoll nutzen?
 - Spannungsfeld: 
-  - KI ist durch die Umstände ihrer Herstellung und Verwendung nicht nur ein Werkzeug sondern (inhärent) politisch und hat externalisierte Kosten
+  - KI ist durch die Umstände ihrer Herstellung und Verwendung nicht nur ein Werkzeug, sondern (inhärent) politisch und hat externalisierte Kosten
   - Von konkreten Problemen ausgehend kann KI als Werkzeug manchmal die beste Option sein 
 
 [@keymolen2026]{.source}
 
 ::: notes
-- In diesem Vortrag wollen wir zeigen, wie man bei der Nutzung von KI in der Zivilgesellschaft *wirklich* Verantwortung übernehmen kann: im Gegensatz zu dem, was der Axel Springer Award darunter versteht
+- wie wir versuchen, KI verantwortungsvoll zu nutzen 
 - Wir bewegen uns dabei in einem Spannungsfeld:
-  - Einerseits ist es oft am sinnvollsten, KI als Werkzeug zu betrachten: Wir gehen von einem konkreten Problem aus und fragen, ob KI die beste Lösung ist
-  - Andererseits ist KI nicht *nur* ein Werkzeug: Wer sie herstellt, wie sie genutzt wird und wie sie in die Welt eingebettet ist, wirkt zurück auf die Gesellschaft und auch auf die Zivilgesellschaft
-- Ablauf:
-  1. Die Umstände – anknüpfend an Peter Thiels Ideologie: Wer baut KI? Welche Ziele verfolgt Big Tech? Welche Auswirkungen hat die Verbreitung von KI auf die Welt und auf die Zivilgesellschaft?
-  2. Die Praxis: Für welche Probleme ist KI tatsächlich die beste Option? 
+  - oft am sinnvollsten, KI nur als Werkzeug zu betrachten: für konkrete Problem kann es die beste Option sein
+  - aber KI ist nicht *nur* ein Werkzeug: Wer sie herstellt, wie sie genutzt wird und wie sie in die Welt eingebettet ist, wirkt zurück auf die Gesellschaft und auch auf die Zivilgesellschaft
+- Wir beschäftigen uns zunächst mit der Einbettung von KI in die Welt
 :::
 
 # Wer entwickelt KI?
@@ -71,7 +68,7 @@ csl: cdl_assets/apa.csl
 
 - Thiel (Palantir) vertritt eine politische Theologie mit dem Antichristen als zentraler Figur
   - verspricht Frieden, Sicherheit und Einheit, z.B. durch **Multilateralismus, internationale Regulierung, interreligiösen Dialog**
-  - will aber in Wahrheit Weltherrschaft  erlangen und Fortschritt aufhalten
+  - will aber in Wahrheit Weltherrschaft erlangen und Fortschritt aufhalten
 
 ::: fragment
 - **Red Tribe** (konservativ) · **Blue Tribe** (progressiv) · **Grey Tribe** (Tech, **Akzelerationismus**)
@@ -82,14 +79,15 @@ csl: cdl_assets/apa.csl
 [@alexander2014; @duran2024; @andreessen2023; @brian2026; @thiel2026]{.source}
 
 ::: notes
-- Exkurs in die Theologie, wir beschäfigen uns noch einmal kurz mit Thiel, der ein besonderns absurdes Beispiel für Ideologien im Tech-Bereich parat hat
-- Anknüpfend an Thiels Zitat vom „getting something done“ als Selbstzweck → dahinter steckt eine relativ ausformulierte Ideologie
-- Alles, was Fortschritt bzw. „getting something done“ behindert, ist der Antichrist → klare Kandidaten: …
-- Tech Ideologen wie Balaji Srinivasan teilen die US-Gesellschaft in Stämme ein: Red Tribe (konservativ, ländlich, religiös), Blue Tribe (progressiv, urban, akademisch) und den Grey Tribe: das Tech-Milieu
-- Dieser Ideologie folgend ist im Grey Tribe der sog. Akzelerationismus bzw. „effective accelerationism“ (e/acc) eine wichtige Ideologie: technologischen Fortschritt maximal beschleunigen, jede Bremse ist schädlich
-- Hier schließt sich der Kreis zu Thiel: Was Thiel als Antichrist beschreibt – Regulierung, internationale Institutionen, Einheit –, ist genau das Programm des Blue Tribe
-- Balaji Srinivasan hat den Grey Tribe zum politischen Projekt gemacht und sagt offen: Grey soll sich mit Red verbünden, gegen Blue. In San Francisco schlägt er Zonen vor, in denen Reds willkommen sind und Blues nicht
-- Das alles wäre einfach nur kurious und absurd, wenn es nur Ideen wären, das Problem ist, dass auf ihrer Grundlage investiert und Politik gemacht wird
+- Exkurs in die Theologie, Thiel, der ein besonders absurdes Beispiel für Ideologien im Tech-Bereich parat hat
+- „getting something done“ als Selbstzweck → relativ ausformulierte Ideologie
+- Alles, was „getting something done“ behindert, ist der Antichrist → klare Kandidaten: ...
+- Diese Einstellung teilen sich viele mit Big Tech verwobenen Ideologien
+- Big-Tech Vordenker wie Balaji Srinivasan teilen US-Gesellschaft in Stämme ein: ...
+- Grey Tribe: sog. Akzelerationismus bzw. „effective accelerationism“: technologischen Fortschritt maximal beschleunigen, jede Bremse ist schädlich
+- Thiels Antichrist ist das Programm des Blue Tribe
+- Balaji Srinivasan schlägt pol. Programm vor: Grey soll sich mit Red verbünden, gegen Blue. In San Francisco schlägt er Zonen vor, in denen Reds willkommen sind und Blues nicht
+- Wäre einfach nur kurios und absurd, aber auf d. Grundlage wird investiert und Politik gemacht
 - Kommen wir nun vom Antichristen zum Anti-Antichristen
 :::
 
@@ -111,23 +109,25 @@ csl: cdl_assets/apa.csl
 [Oben: [@rozen2026] · Unten links: [@trump2026] · Unten rechts: [@leonardo1498]]{.source}
 
 ::: notes
-- Ich verspreche das ist die letzte theologische Slide
-- Auf diesem Bild sehen wir fast den kompletten Grey Tribe (Palantir, OpenAI, Microsoft, Google, Meta, Elon Musk etc.) mit dem Anführer des Red Tribes, der sich, cool und normal, btw. passend zum Thema mal als Jesus dargestellt hat.
-- 2024, als Trump wiedergewählt wurde, ist das Grey/Red-Bündnis Realität geworden: Thiel und co auf der Seite von Trump, Thiels Zögling JD Vance als Vizepräsident -> Silicon Valley supported recht geschlossen Trump
-- Das Bild ist auf einer Veranstaltung entstanden, bei der entschieden wurde, dass in Regierungsdokumenten anstatt Artificial Intelligence der Begriff Superintelligence verwendet werden soll. Dadurch wird in typischer Trump-Selbstentlarvungsmanier auch die Marketing-Dimension und nicht-Neutralität der Bezeichnung Künstliche-Intelligenz deutlich [@tnnd2026]
+- letzte theologische Slide
+- Auf Bild: fast den kompletten Grey Tribe (Palantir, Anthropic, OpenAI, Microsoft, Google, Meta, Elon Musk etc.) mit Anführer des Red Tribes, der sich btw. passend zum Thema mal als Jesus dargestellt hat.
+- 2024, als Trump wiedergewählt wurde, hat sich Grey/Red-Bündnis verwirklicht: Silicon Valley supported recht geschlossen Trump 
+- Bild von Veranstaltung: in Regierungsdokumenten anstatt Artificial Intelligence der Begriff Superintelligence verwenden. 
+- In typischer Trump-Selbstentlarvungsmanier -> Marketing-Dimension und nicht-Neutralität der Bezeichnung Künstliche-Intelligenz deutlich [@tnnd2026]
 :::
 
 # Entzauberung: Was ist KI eigentlich?
 
-## KI Begriff: Intelligenz
+## KI-Begriff: Intelligenz
 
 > Intelligence is the computational part of the ability to achieve goals in the world. [...] Intelligence involves mechanisms, and **AI research has discovered how to make computers carry out some of them and not others**. Such programs should be considered "somewhat intelligent". [@mccarthy_what_2012]
 
 - Intelligenz als auf ein Ziel gerichtete Fähigkeit, die unterschiedliche Komponenten umfasst (z.B. von Logik bis Erkennen von Objekten)
 
 ::: notes
-- Was ist ein nüchterneres Verständnis von KI? 
-- Intelligenz ist nicht Selbstbewusstsein oder der gesamte menschliche Geist
+- Was ist ein besseres Verständnis von KI als von Superintelligent zu reden? 
+- Intelligenz ist kein gesamter künstlicher menschlicher Bewusstsein
+- Komponenten, auf Ziel gerichtet
 :::
 
 ## KI als Oberbegriff
@@ -135,24 +135,21 @@ csl: cdl_assets/apa.csl
 ![](images/drawing.png)
 
 ::: notes
-
-- Diese Komponenten von Intelligenz können verschiedene Technologien abdecken, wenn eine Technologie das tut, ist sie KI
-  -  Das ist icht nur generative KI und Large Language Models (ChatGPT, Claude)
-- Hier deswegen ein Schaubild dazu, was alles KI ist. Außerdem kommt ja der Begriff Machine Learning im Titel vor. Um zu verstehen, wie man dagegen Ragen kann, muss man zunächst verstehen was Machine Learning ist
-- Die Bandbreite dessen, was alles KI ist, löst ein wenig die Spannung zwischen KI als Werkzeug und KI als politisches Artefakt auf: unterschiedliche Level an Auswirkungen bei KI-Technologien -> nicht nur generative KI kann Funktionen ausführen, die man mit Intelligenz verbindet
+- Wenn eine Technologie eine diese Komponenten von Intelligenz abdeckt, ist sie KI
+  - Nicht nur generative KI (ChatGPT, Claude)
+- Auf diesem Schaubild: KI als Oberbegriff. 
+...
+- Machine Learning im Titel. Um zu verstehen, wie man dagegen Ragen kann, muss man zunächst verstehen was ML ist
+- GPT und Claude sind neuronale Sprachmodelle
 :::
 
 
-## Neuronale Netzwerke 
+# Externalisierte Kosten
 
-- Modell biologischer Neuronen (basierend auf dem, was damals über Neuronen bekannt war) [@mcculloch_logical_1943]
-- Neuronale Netzwerke erzielen beste Performance bei vielen Tasks, bzw. ermöglichen erst manche Tasks [@lecun2015]
-
-![Illustration eines neuronalen Netzwerks aus Hilary Masons Keynote, <https://www.youtube.com/watch?v=SxxqaC5hf04&t=2394s>](images/artificial-neural-network-cell.png){fig-align="center"}
-
-
-
-# Externe Kosten
+::: notes
+- Kosten, die nicht der Verursacher, sondern die Allgemeinheit oder die Umwelt trägt
+- Kurzfristig außerhalb des Wirtschaftssystem 
+:::
 
 ## Warum muss KI überhaupt reguliert werden?
 
@@ -183,16 +180,17 @@ csl: cdl_assets/apa.csl
 [@iea2025; @iea2026; @devries2025; @kak2023; @buolamwini2018; @williams2022; @perrigo2023; @jose2025]{.source}
 
 ::: notes
-- Das folgende gilt besonders aber nicht nur auf Technolgien die auf neuronalen Netzwerken basieren
+- GPT und Claude sind neuronale Sprachmodelle
+- Gilt besonders, aber nicht nur für neuronale Netzwerken. Keine vollständige Liste.
 - Ökologisch:
   - Strom & CO₂: Laut IEA verbrauchen Rechenzentren bis 2030 mehr als ganz Japan heute.  Ein großer Teil davon kommt weiterhin aus fossilen Quellen.
-  - Wasser: KI-Systeme verbrauchten 2025 geschätzt so viel wie der weltweite Flaschenwasserkonsum. v.a. für Kühlung, dazu kommt der indirekte Verbrauch über die Stromerzeugung. 
+  - Wasser: KI-Systeme verbrauchten 2025 geschätzt so viel wie der weltweite Flaschenwasserkonsum. v.a. für Kühlung.
 
 - Gesellschaftlich:
-  - Machtkonzentration: Wenige Konzerne kontrollieren Rechenleistung, Daten und Modelle. Wer die Infrastruktur kontrolliert, setzt faktisch die Regeln, nicht demokratische Institutionen
-  - Diskriminierung: Machine Learning reproduziert gesellschaftliche Ungleichheiten, Systeme entscheiden über Leben von Menschen. 
-  - Ausbeutung: Hinter KI steckt viel menschliche, schlecht bezahlte Arbeit beim Datenlabeling
-  - Cognitive Outsourcing: Kognitives Auslagern an KI kann kognitie Fähigkeiten wie kritisches Denken schwächen. KI unterstützt sondern ersetzt Denkprozesse zunehmend
+  - Wenige Konzerne kontrollieren Rechenleistung, Daten und Modelle und setzen faktisch die Regeln, demokratische Institutionen sind hinterher
+  - Machine Learning reproduziert gesellschaftliche Ungleichheiten, Systeme entscheiden dann über Leben von Menschen. 
+  - Hinter KI steckt viel menschliche, schlecht bezahlte Arbeit beim Datenlabeling
+  - KI kann kognitive Fähigkeiten wie kritisches Denken schwächen. KI unterstützt nicht nur, sondern ersetzt Denkprozesse zunehmend.
 - 
 :::
 
@@ -200,44 +198,48 @@ csl: cdl_assets/apa.csl
 
 - KI-Zusammenfassungen und Chatbots 
   - Website-Traffic verringert sich drastisch
-  - Weniger Kontrolle darüber, wie Informationen Menschen erreicht
+  - Weniger Kontrolle darüber, wie Informationen Menschen erreichen
 
 ::: fragment
 - Einfluss auf soziale Beratungsangebote: 
-  - Chatbots vermehrt für Beratung genutzt
-  - Beratende von Chatbot-Sessions beeinflusst
-  - KI-Psychose 
+  - Chatbots werden vermehrt als Berater genutzt
+  - Ratsuchende von Chatbot-Sessions beeinflusst
+  - KI-Psychose sorgt für mehr Krisensituationen
 :::
 
 ::: fragment
-- Ökonomische Zwänge (KI für mehr Effizienz)
-- KI-Projekte haben Prestige und bekommen mehr Geld
-- Work Slop 
-:::
+- Ökonomische Zwänge
+  - KI steht für Effizienzsteigerung
+  - Workslop
 
+- KI-Projekte haben Prestige und bekommen mehr Geld
+:::
 
 [@pew2025; @augustin2025; @niederhoffer2025]{.source}
 
 ::: notes
 - Klicks auf Suchergebnisse in 8 % der Besuche mit KI-Zusammenfassung vs. 15 % ohne; nur 1 % klickt auf eine zitierte Quelle
+- 
 :::
 
 # KI als Werkzeug wofür? 
 
-## KI Tasks 
+## KI-Tasks 
 
-- KI-Methoden werden für Tasks entwickelt und mit für diese gemachten Daten und Metriken evaluiert und verglichen
+- KI-Methoden werden für Tasks entwickelt und mit für diese zusammengestellten Daten und Metriken evaluiert und verglichen
 - Beispiele Tasks: Klassifikation, Textzusammenfassung, Nutzung von Tools
 - Einfachste Metrik: Accuracy (Anteil richtiger Klassifikationen)
+- Neuronale Netzwerke erzielen beste Performance bei vielen Tasks, bzw. ermöglichen erst manche Tasks [@lecun2015]
 
 ::: notes
-- wir haben schon gesehen, dass man KI  als eine Reihe von auf ein Ziel gerichteter Fähigkeiten verstehen kann, die externalisierte Kosten hat -> bevor wir draüber sprechen was legitime Ziele sind, sprechen zunächst darüber, wie man  solche Ziele genauer definieren kann und wie man Methode dafür auswählt. 
-- Problem auf einen konkreten Task runterbrechen und sich überlegen, wie man Performance misst
-
+- schon gesehen, dass man KI  als eine Reihe von auf ein Ziel gerichteter Fähigkeiten verstehen kann, die externalisierte Kosten haben 
+  -> vor was sind legitime Ziele, sprechen wir darüber, wie man solche Ziele genauer definieren und wie man Methoden dafür auswählt.
+- Von Wissenschaft lernen: Probleme auf einen konkreten Task runterbrechen und sich überlegen, wie man Performance misst
+- Hier muss man feststellen..
 :::
 
 
-## "Große" Neuronale Sprachmodelle (TODO)
+## "Große" Neuronale Sprachmodelle
 
 - BERT -> Bidirectional encoder representations from transformers (340 Millionen Parameter) [@devlin2019]
     - Finetuning: Anpassung des Modells und Parameter auf Task 
@@ -245,38 +247,41 @@ csl: cdl_assets/apa.csl
     - In-Context Learning (ICL) und (Few Shot) Prompting -> Keine Veränderung der Parameter [@brown2020]
 
 ::: fragment
-- Eine Technologie, die zum KI Hype der letzten Jahre geführt hat sind große neuronale Sprachmodelle 
-- Groß ist hierbei relativ 349 Millionen zu mehreren Billionen
-- Das was neuere Sprachmodelle von alten außerdem unterscheidet, ist die Art, wie man sie verwenden kann. Einigermaßen Universelle Tools.
-- Was wir jedoch empfehlen würden, ist Probleme trotzdem auf Tasks runterzubrechen und auch große generative Modelle als Werkzeug mit Alternativen zu sehen, dessen Performance man nicht als gegeben sehen sollte.
-
 - „Wie schon der Mythos Aufklärung ist, schlägt Aufklärung in Mythologie zurück“ [@horkheimer_adorno1947]  
 :::
 
 ::: notes
-- Von Bert zu Mythos
-- Mit Bezug auf die Benennung, finde ich es schön, wie sich alles zusammenfügt
-  - Um ein Zitat aus der Frankfurter Schule, genauer aus "Dialektik der Aufklärung" zu droppen: ..
+- Eine Technologie, die zum KI Hype der letzten Jahre geführt hat sind große neuronale Sprachmodelle 
+- Groß ist hierbei relativ 340 Millionen zu mehreren Billionen
+- Unterschied ältere Sprachmodelle und neue: wie man sie verwenden kann
+  - hin zu Universalwerkzeugen
+- Empfehlung: Probleme trotzdem auf Tasks runterbrechen 
+  - auch große generative Modelle als Werkzeug mit Alternativen zu sehen
+  - Performance man nicht als gegeben sehen
+
+- Bezug auf die Benennung: schön, wie sich alles zusammenfügt
+  - Zitat aus der Frankfurter Schule, aus "Dialektik der Aufklärung" droppen: ..
   - Mythos als eine Erzählung die Phänomene einordnet ohne richtig zu ergründen ob es der Wahrheit entspricht 
-  - Erzählungen rund um KI sind nahe an Mythos
-  - Frankfurter Schule prägt auch den Begriff der sog. "instrumentelle Vernunft": Das führt wieder zurück auf das Zitat von Thiel zu Fokus auf getting smth done als Maßstab -> Mittel anstatt von Zielen des Handelns reflektieren
+  - Erzählungen rund um KI sind quasi ein Mythos
+  - Frankfurter Schule prägt "instrumentelle Vernunft": das führt zurück auf Thiel Zitat von Thiel zu Fokus auf getting smth done als Maßstab -> Mittel anstatt die Ziele des Handelns zu priorisieren ist nämlich instrumentelle Vernunft 
   - 
 :::
 
 # KI zwischen Mythos und Fabel(haft)
 
 ::: notes
-- Deswegen, wenn man eine Skala aufmacht, kann man Mythos als Begriff negativ verstanden, ans untere Ende setzen und aus satirischen Gründen Fabel(haft) ans andere Ende
-- Kommen wir zur Zivilgesellschaft und wie man hier versuchen kann KI vernünftig einzusetzen. 
-- Ein Aspekt: Vernunft so verstehen, dass sich neben der Frage danach, ob die Mittel dafür geeignet sind, einen Zweck zu erreichen, auch mit der Frage beschäftigt werden sollte, ob der Zweck der richtige ist.
-- Abwägung: selbst wenn das Ziel das richtige ist, ist KI das richtige Mittel? externalisierte Kosten.
+- Wenn man also eine Skala aufmachen will, kann man Mythos, als Begriff negativ verstanden, ans untere Ende setzen und aus satirischen Gründen Fabel(haft) ans andere Ende
+- kommen wir zur unseren Erfahrungen von KI-Einsatz in der Zivilgesellschaft und wie man hier versuchen kann, KI vernünftig einzusetzen. 
+- Ein Aspekt: Vernunft 
+  -> nicht nur Frage danach, ob Mittel dafür geeignet sind, einen Zweck zu erreichen, 
+  -> sondern auch mit der Frage beschäftigen, ob der Zweck der richtige ist
 :::
 
-## Mythos
+## KI als Mythos
 
-- Bessere Informationarchitektur statt eigener Chatbot  
+- Bessere Informationsarchitektur statt eigener Chatbot  
 
-- Ehrenamtlich Tätige lieber für die Verwaltung als für Social Media einsetzen [@cdl_ki_ehrenamt]
+- Ehrenamtlich Tätige würden KI lieber für Verwaltungstätigkeiten als für Social Media einsetzen [@cdl_ki_ehrenamt]
 
 - Prompt Engineering: "You are a senior air traffic controller, take over routing planes for this airport" [@zheng2024]
 
@@ -286,45 +291,28 @@ csl: cdl_assets/apa.csl
 - Manchmal reicht Prozessoptimierung statt Agentic AI
 
 ::: notes 
-- 
+- Als CDL bieten wir Beratungen an: Chatbot -> oft stellt sich heraus das
+- Umfrage durchgeführt. KI wird viel für Content eingesetzt, aber noch wenig für administrative Tätigkeiten, wofür Menschen sie lieber einsetzen würden
+- Prompt Engineering als Beispiel für Pseudowissenschaft aus der ein eigenes Business gemacht wird. 
+- Tech Fix
+- Manchmal kann man Effizienz nicht durch Automatisierung sondern eher durch ...
 :::
 
 
-## Fabel(haft)
+## KI: fabelhaft
 
-- AWO Demokratieförderquote
-  - 
-- AfD Gutachten 
-  - Beweise AfD-Verbot -> Vorfiltern/Vorarbeit, dann wichtige Arbeit von Menschen machen lassen [@verfassungsblog2026]
-- Bee Observer
-- Schule ein Gesicht geben
-  - semantische Suche
-- Handwriting recogniition 
+- CDL Projekte
+  - AWO Demokratieförderquote: Klassifikation von Förderprogrammen mit Fokus auf Recall
+  - Schule ein Gesicht geben: Semantische Suche (Informationen mit eigenen Worten finden)
+  - genialsozial: Texterkennung bei handschriftlich ausgefüllten Formularen
+- AfD-Gutachten: Vorfiltern (Klassifikation) von Äußerungen von AfD-Politiker:innen
 
-@cdl_demokratiefoerderquote 
+[@cdl_demokratiefoerderquote; @verfassungsblog2026]{.source}
 
 ::: notes 
-- handwriting recognition als bewusst akzeptierter tech fix
-:::
-
-## CoC Demokratische KI
-
-::: coc-grid
-<figure><img src="images/coc/abwaegung.jpg" alt=""><figcaption>Abwägung der Nutzung</figcaption></figure>
-<figure><img src="images/coc/menschenzentrierung.jpg" alt=""><figcaption>Menschenzentrierung</figcaption></figure>
-<figure><img src="images/coc/transparenz.jpg" alt=""><figcaption>Transparenz</figcaption></figure>
-<figure><img src="images/coc/teilhabe.jpg" alt=""><figcaption>Teilhabe und Partizipation</figcaption></figure>
-<figure><img src="images/coc/diskriminierung.jpg" alt=""><figcaption>Diskriminierungskritische Haltung</figcaption></figure>
-<figure><img src="images/coc/verantwortung.jpg" alt=""><figcaption>Verantwortung und Verantwortlichkeit</figcaption></figure>
-<figure><img src="images/coc/kompetenzen.jpg" alt=""><figcaption>Kompetenzen</figcaption></figure>
-<figure><img src="images/coc/nachhaltigkeit.jpg" alt=""><figcaption>Ökologische Nachhaltigkeit</figcaption></figure>
-:::
-
-[@d64_coc; @d64_2025]{.source}
-
-::: notes
-- Code of Conduct von CorrelAid mitentwickelt
-- 8 Grundprinzipien
+- Recall: Fokus true positives, nicht 100% verlassen auf KI bei der Feinarbeit
+- Wissenssammlung zu SV: Informationen besser auffindbar machen 
+- handwriting recognition als bewusst akzeptierter temporärer tech fix, Untersuchung wie hoch man Performance treiben kann
 :::
 
 
@@ -338,15 +326,18 @@ csl: cdl_assets/apa.csl
 - Nicht *„Wie können wir KI einsetzen?“*, sondern *„Welches Problem haben wir (wirklich) – und ist KI dafür die beste Lösung?“*
 - Immer mitdenken: *„Wozu – und zu welchem Preis?“*
 
-
+- Code of Conduct Demokratische KI - demokratische-ki.de
 
 ::: notes
-- Wir sollten alle stolze Antichristen sein. Damit meine ich nicht, dass wir Satanisten werden sollten, sondern ...
-- Silicon Valley nicht als Vorbild nehmen
+- Wir sollten alle stolze Antichristen sein, nicht, dass wir Satanisten werden sollten, sondern ...
 - „Rage against the Machine Learning“ ist berechtigt, Boykott ist begründbar
+
 - Unserer Meinung sollte das nicht dazu führen, KI prinzipiell abzulehnen (individuelle ethische Entscheidung): man kann sie für konkrete Probleme in Betracht ziehen
-- Bei der Erstellung dieser Präsentation habe ich auch mit Claude gearbeitet
-- Gemeinwohlorientierte Organisationen tragen eine besondere Verantwortung dafür, KI so einzusetzen, dass demokratische Teilhabe erleichtert, Diskriminierung reduziert und gesellschaftlicher Zusammenhalt gestärkt wird.
+
+- Weiterführend Coc demokratische KI: 
+  - Als CDL daran mitgearbeitet
+  - konkrete Handlungsempfehlungen für gemeinwohlorientierte Organisationen
+
 :::
 
 

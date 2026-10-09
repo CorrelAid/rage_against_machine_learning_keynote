@@ -66,7 +66,7 @@ csl: cdl_assets/apa.csl
 
 ## Peter Thiel, der Antichrist und der "Grey Tribe"
 
-- Thiel (Palantir) vertritt eine politische Theologie mit dem Antichristen als zentraler Figur
+- Thiel vertritt eine politische Theologie mit dem Antichristen als zentraler Figur
   - verspricht Frieden, Sicherheit und Einheit, z.B. durch **Multilateralismus, internationale Regulierung, interreligiösen Dialog**
   - will aber in Wahrheit Weltherrschaft erlangen und Fortschritt aufhalten
 
@@ -147,6 +147,7 @@ csl: cdl_assets/apa.csl
 # Externalisierte Kosten
 
 ::: notes
+- Dass neuronale Netzwerke in KI momentan vorherrschen, hat Konsequenzen
 - Kosten, die nicht der Verursacher, sondern die Allgemeinheit oder die Umwelt trägt
 - Kurzfristig außerhalb des Wirtschaftssystem 
 :::
@@ -201,10 +202,9 @@ csl: cdl_assets/apa.csl
   - Weniger Kontrolle darüber, wie Informationen Menschen erreichen
 
 ::: fragment
-- Einfluss auf soziale Beratungsangebote: 
+- Einfluss auf soziale Beratungsangebote 
   - Chatbots werden vermehrt als Berater genutzt
   - Ratsuchende von Chatbot-Sessions beeinflusst
-  - KI-Psychose sorgt für mehr Krisensituationen
 :::
 
 ::: fragment
@@ -212,17 +212,24 @@ csl: cdl_assets/apa.csl
   - KI steht für Effizienzsteigerung
   - Workslop
 
-- KI-Projekte haben Prestige und bekommen mehr Geld
+
 :::
 
 [@pew2025; @augustin2025; @niederhoffer2025]{.source}
 
 ::: notes
+- Keine vollständige Liste
 - Klicks auf Suchergebnisse in 8 % der Besuche mit KI-Zusammenfassung vs. 15 % ohne; nur 1 % klickt auf eine zitierte Quelle
-- 
+- Auswirungen von KI-Beratung noch nicht klar
+- - KI-Projekte haben Prestige und bekommen mehr Geld
 :::
 
 # KI als Werkzeug wofür? 
+
+::: notes
+- schon gesehen, dass man KI  als eine Reihe von auf ein Ziel gerichteter Fähigkeiten verstehen kann, die externalisierte Kosten haben 
+  -> vor was sind legitime Ziele, sprechen wir darüber, wie man solche Ziele genauer definieren und wie man Methoden dafür auswählt.
+:::
 
 ## KI-Tasks 
 
@@ -232,14 +239,13 @@ csl: cdl_assets/apa.csl
 - Neuronale Netzwerke erzielen beste Performance bei vielen Tasks, bzw. ermöglichen erst manche Tasks [@lecun2015]
 
 ::: notes
-- schon gesehen, dass man KI  als eine Reihe von auf ein Ziel gerichteter Fähigkeiten verstehen kann, die externalisierte Kosten haben 
-  -> vor was sind legitime Ziele, sprechen wir darüber, wie man solche Ziele genauer definieren und wie man Methoden dafür auswählt.
+
 - Von Wissenschaft lernen: Probleme auf einen konkreten Task runterbrechen und sich überlegen, wie man Performance misst
 - Hier muss man feststellen..
 :::
 
 
-## "Große" Neuronale Sprachmodelle
+## Abschied von Tasks? - "Große" Neuronale Sprachmodelle
 
 - BERT -> Bidirectional encoder representations from transformers (340 Millionen Parameter) [@devlin2019]
     - Finetuning: Anpassung des Modells und Parameter auf Task 
@@ -247,34 +253,25 @@ csl: cdl_assets/apa.csl
     - In-Context Learning (ICL) und (Few Shot) Prompting -> Keine Veränderung der Parameter [@brown2020]
 
 ::: fragment
-- „Wie schon der Mythos Aufklärung ist, schlägt Aufklärung in Mythologie zurück“ [@horkheimer_adorno1947]  
+- „Aufklärung schlägt in Mythologie zurück“ [@horkheimer_adorno1947]  
 :::
 
 ::: notes
-- Eine Technologie, die zum KI Hype der letzten Jahre geführt hat sind große neuronale Sprachmodelle 
-- Groß ist hierbei relativ 340 Millionen zu mehreren Billionen
-- Unterschied ältere Sprachmodelle und neue: wie man sie verwenden kann
-  - hin zu Universalwerkzeugen
+- KI Hype der letzten Jahre: LLMs als Unterkategorie von neuronalen Netzwerken
+- Groß ist hierbei relativ, hin zu Universalwerkzeugen
 - Empfehlung: Probleme trotzdem auf Tasks runterbrechen 
-  - auch große generative Modelle als Werkzeug mit Alternativen zu sehen
-  - Performance man nicht als gegeben sehen
+  - auch große generative Modelle als Werkzeug mit Alternativen zu sehen, Performance man nicht als gegeben sehen, je größer, desto mehr externalisierte Kosten
 
 - Bezug auf die Benennung: schön, wie sich alles zusammenfügt
-  - Zitat aus der Frankfurter Schule, aus "Dialektik der Aufklärung" droppen: ..
-  - Mythos als eine Erzählung die Phänomene einordnet ohne richtig zu ergründen ob es der Wahrheit entspricht 
-  - Erzählungen rund um KI sind quasi ein Mythos
-  - Frankfurter Schule prägt "instrumentelle Vernunft": das führt zurück auf Thiel Zitat von Thiel zu Fokus auf getting smth done als Maßstab -> Mittel anstatt die Ziele des Handelns zu priorisieren ist nämlich instrumentelle Vernunft 
-  - 
+  - Zitat aus der Frankfurter Schule, droppen: ..
+  - Mythos als eine Erzählung die Phänomene einordnet ohne richtig zu ergründen ob es der Wahrheit entspricht -> Erzählungen rund um KI sind quasi ein Mythos (vermenschlichung, warum entwickeln wir KI eigentlich weiter)
 :::
 
 # KI zwischen Mythos und Fabel(haft)
 
 ::: notes
-- Wenn man also eine Skala aufmachen will, kann man Mythos, als Begriff negativ verstanden, ans untere Ende setzen und aus satirischen Gründen Fabel(haft) ans andere Ende
-- kommen wir zur unseren Erfahrungen von KI-Einsatz in der Zivilgesellschaft und wie man hier versuchen kann, KI vernünftig einzusetzen. 
-- Ein Aspekt: Vernunft 
-  -> nicht nur Frage danach, ob Mittel dafür geeignet sind, einen Zweck zu erreichen, 
-  -> sondern auch mit der Frage beschäftigen, ob der Zweck der richtige ist
+- wir bauen jetzt eine Skala, Mythos, als Begriff negativ verstanden, ans untere Ende und aus satirischen Gründen Fabel(haft) ans andere Ende
+- in diese Skala wollen wir Erfahrungen von KI-Einsatz in der Zivilgesellschaft und wie man hier versuchen kann, KI verantworutngsvoll einzusetzen einordnen 
 :::
 
 ## KI als Mythos
@@ -302,7 +299,7 @@ csl: cdl_assets/apa.csl
 ## KI: Fabel(haft)
 
 - CDL Projekte
-  - AWO Demokratieförderquote: Klassifikation von Förderprogrammen mit Fokus auf Recall
+  - AWO Demokratieförderquote: Klassifikation von Förderprogrammen 
   - Schule ein Gesicht geben: Semantische Suche (Informationen mit eigenen Worten finden)
   - genialsozial: Texterkennung bei handschriftlich ausgefüllten Formularen
 - AfD-Gutachten: Vorfiltern (Klassifikation) von Äußerungen von AfD-Politiker:innen
@@ -310,7 +307,8 @@ csl: cdl_assets/apa.csl
 [@cdl_demokratiefoerderquote; @verfassungsblog2026]{.source}
 
 ::: notes 
-- Recall: Fokus true positives, nicht 100% verlassen auf KI bei der Feinarbeit
+- Unserer Meinung nach fabelhafter Einsatz von KI
+- Wie viel Geld gib der Staat für Demokratieförderung aus -> Modelentwicklung: Nur bei einfachen Entscheidungen auf KI velassen, schwierige Entscheidungen Menschen überlassen
 - Wissenssammlung zu SV: Informationen besser auffindbar machen 
 - handwriting recognition als bewusst akzeptierter temporärer tech fix, Untersuchung wie hoch man Performance treiben kann
 :::

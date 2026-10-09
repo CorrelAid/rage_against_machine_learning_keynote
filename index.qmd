@@ -278,14 +278,16 @@ csl: cdl_assets/apa.csl
 
 - Bessere Informationsarchitektur statt eigener Chatbot  
 
-- Ehrenamtlich Tätige würden KI lieber für Verwaltungstätigkeiten als für Social Media einsetzen [@cdl_ki_ehrenamt]
+- Ehrenamtlich Tätige würden KI lieber für Verwaltungstätigkeiten als für Social Media einsetzen
 
-- Prompt Engineering: "You are a senior air traffic controller, take over routing planes for this airport" [@zheng2024]
+- Prompt Engineering: "You are a senior air traffic controller, take over routing planes for this airport"
 
-- KI als Tech-Fix [@morozov2013]
+- KI als Tech-Fix
   - KI wird als Lösung für Probleme vorgeschlagen, aber das eigentliche Problem wird nicht gelöst (Chatbot gegen Einsamkeit)
 
 - Manchmal reicht Prozessoptimierung statt Agentic AI
+
+[@cdl_ki_ehrenamt; @zheng2024; @morozov2013]{.source}
 
 ::: notes 
 - Als CDL bieten wir Beratungen an: Chatbot -> oft stellt sich heraus das
